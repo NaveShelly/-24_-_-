@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<h1 style="font-size:25px;text-align:center;color:blue;">Register</h1>
+<body>
+<div style="position: absolute; left:100px; top:62px;">
+	<button id="button1" onclick="Frontpage()">דף עידכונים</button>
+</div>
+<div style="position: absolute; left:270px; top:62px;">
+	<button id="button2" onclick="Frontpage()">כניסה</button>
+</div>
+<div style="position: absolute; left:400px; top:62px;">
+	<button id="button3" onclick="howtouse()">מדריך שימוש באתר</button>
+</div>
+<div style="position: absolute; left:700px; top:62px;">
+	<button id="button4" onclick="regpage()">הרשמה</button>
+</div>
+</div>
+<div style="position: absolute; left:1100px; top:62px;">
+	<button id="button6" onclick="frontpage()">ראשי</button>
+</div>
+<div style="position: absolute; left:900px; top:62px;">
+	<button id="button8" onclick="connectionpage()">צור קשר</button>
+</div>
+<div class="form">
+	<form class="register-form">
+	<div style="position:absolute;left:50px;top:200px;">
+	<input id="username1" type="text" placeholder="name"/>
+	</div>
+	<div style ="position:absolute; left:50px;top:300px">
+	<input id="Fname" type="text" placeholder="First Name"/>
+	</div>
+		<div style ="position:absolute; left:50px;top:400px">
+			<input id="Lname" type="text" placeholder="Last Name"/>
+		</div>
+	<div style="position:absolute;left:50px;top:500px;">
+	<input id="pw" type="text" placeholder="password"/>
+	</div>
+	<div style="position:absolute;left:50px;top:600px;">
+	<input id="maildetail" type="text" placeholder="email"/>
+	</div>
+	<div style="position:absolute;left:300px;top:300px;">
+		<button id="button7" onclick="savedetails(username1,Fname,Lname,pw,maildetail)">Creates</button>
+	</div>
+	</form>
+</div>
+</div>
+<script src= "Functions.js"></script>
+</body>
+</html>

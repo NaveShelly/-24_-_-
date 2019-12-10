@@ -28,19 +28,59 @@
     <button id="button6" onclick="frontpage()">ראשי</button>
 </div>
 </div>
+
 <div style="position: absolute; left:800px; top:75px;">
 <h1>בוחן לתלמיד :האריה שאהב תות</h1>
 </div>
-<div style="position: absolute; left:850px; top:300px;">
-<p><b><font?מה האריה רצה לאכול </b></p>
-    <input id= "First"type="checkbox" name="vehicle1" value="Bike" > תות<br>
-    <input id="Second" type="checkbox" name="vehicle1" value="Bike" > בננה<br>
-    <input id="Third"type="checkbox" name="vehicle1" value="Bike" > תפוח<br>
-    <input id="Fourth"type="checkbox" name="vehicle1" value="Bike" > אבוקדו<br>
-    <button id="button8" onclick="CheckAnswer(F,1)">ראשי</button>
+<form id="Quize" name="Quize">
+<div style="position: absolute; left:1000px; top:300px;">
+<p>?מה האריה רצה לאכול </p>
+    <input id= "Q1"type="radio" name="Question1" value="Right" > תות<br>
+    <input id="Q2" type="radio" name="Question1" value="Wrong" > בננה<br>
+    <input id="Q3"type="radio" name="Question1" value="Wrong" > תפוח<br>
+    <input id="Q4"type="radio" name="Question1" value="Wrong" > אבוקדו<br>
 </div>
+    <div style="position: absolute; left:1000px; top:500px;">
+        <p>?במה ניגב האריה את עיניו </p>
+        <input id= "Q6"type="radio" name="Question2" value="Wrong" > טישו<br>
+        <input id="Q7" type="radio" name="Question2" value="Wrong"  > נייר<br>
+        <input id="Q8"type="radio" name="Question2" value="Right"  > סמרטוט<br>
+        <input id="Q9"type="radio" name="Question2" value="Wrong"  > מגבת<br>
 
-<input type="checkbox" name="vehicle1" value="Bike"> I have a bike<br>
+    </div>
+    <div style="position: absolute; left:1000px; top:700px;">
+        <p>ממה פחדו הילדים? </p>
+        <input id= "Q10"type="radio" name="Question3" value="Wrong" > גודל האריה<br>
+        <input id="Q11" type="radio" name="Question3" value="Right"  > שאגת האריה<br>
+        <input id="Q12"type="radio" name="Question3" value="Wrong"  > יער<br>
+        <input id="Q13"type="radio" name="Question3" value="Wrong"  >אמא לביאה<br>
+
+    </div>
+
+    <div style="position: absolute; left:1000px; top:900px;">
+        <p>ממי האריה קיבל לבסוף את התות? </p>
+        <input id= "Q14"type="radio" name="Question4" value="Wrong" > אמא לביאה<br>
+        <input id="Q15" type="radio" name="Question4" value="Right"  > הילדים<br>
+        <input id="Q16"type="radio" name="Question4" value="Wrong"  > חבר שלו<br>
+        <input id="Q17"type="radio" name="Question4" value="Wrong"  > מצא ביער<br>
+
+    </div>
+    <div style="position: absolute; left:1000px; top:1100px;">
+        <p>ממי האריה קיבל לבסוף את התות? </p>
+        <input id= "Q18"type="radio" name="Question5" value="Right" > אמא לביאה<br>
+        <input id="Q19" type="radio" name="Question5" value="Wrong"  > הילדים<br>
+        <input id="Q20"type="radio" name="Question5" value="Wrong"  > חבר שלו<br>
+        <input id="Q21"type="radio" name="Question5" value="Wrong"  > מצא ביער<br>
+        <p>                       </p>
+        <button id="Q5" onclick="CheckAnswer()">הגש מבחן</button>
+        <p>                       </p>
+        <p id="ShowResult">    </p>
+        <p>                       </p>
+        <p>                       </p>
+
+    </div>
+
+</form>
 
 <script src= "Functions.js"></script>
 </body>

@@ -1,0 +1,87 @@
+!DOCTYPE html>
+<html>
+<head>
+    <div style="position: absolute; left:700px; top:0px;">
+        <h1 style="font-size:25px;text-align:center;color:blue;">Kal Vasefer Example</h1>
+        <title> Kal Vasefer Example </title>
+        <meta charset="UTF-8">
+        <title>Insert title here</title>
+    </div>
+</head>
+<body>
+<div style="position: absolute; left:100px; top:62px;">
+    <button id="button1" onclick="Frontpage()">דף עידכונים</button>
+</div>
+<div style="position: absolute; left:300px; top:62px;">
+    <button id="button2" onclick="Frontpage()">כניסה</button>
+</div>
+<div style="position: absolute; left:450px; top:62px;">
+    <button id="button3" onclick="Frontpage()">מדריך שימוש באתר</button>
+</div>
+<div style="position: absolute; left:700px; top:62px;">
+    <button id="butto4" onclick="regpage()">הרשמה</button>
+</div>
+<div style="position: absolute; left:900px; top:62px;">
+    <button id="button5" onclick="secondpage()">אודות</button>
+</div>
+<div style="position: absolute; left:1100px; top:62px;">
+    <button id="button6" onclick="frontpage()">ראשי</button>
+</div>
+</div>
+
+<div style="position: absolute; left:800px; top:75px;">
+    <h1>בוחן לתלמיד :מעשה בחמישה בלונים</h1>
+</div>
+<form id="Quize" name="Quize">
+    <div style="position: absolute; left:1000px; top:300px;">
+        <p>את מי חיפש מר אגודל? </p>
+        <input id= "Q1"type="radio" name="Question1" value="Right" >את גברת זרת<br>
+        <input id="Q2" type="radio" name="Question1" value="Wrong" >את גברת קמיצה<br>
+        <input id="Q3"type="radio" name="Question1" value="Wrong" > את גברת אצבע<br>
+        <input id="Q4"type="radio" name="Question1" value="Wrong" > גברת אמה<br>
+    </div>
+    <div style="position: absolute; left:1000px; top:500px;">
+        <p>למה מר אגודל היה עצוב?</p>
+        <input id= "Q6"type="radio" name="Question2" value="Wrong" >הוא קיבל מכה<br>
+        <input id="Q7" type="radio" name="Question2" value="Wrong"  >הוא היה עייף<br>
+        <input id="Q8"type="radio" name="Question2" value="Right"  > כי הוא לא מצא את גברת זרת<br>
+        <input id="Q9"type="radio" name="Question2" value="Wrong"  >כי הוא לא מצא את גברת אצבע<br>
+
+    </div>
+    <div style="position: absolute; left:1000px; top:700px;">
+        <p>מה לא אמרה למר אגודל גברת קמיצה?</p>
+        <input id= "Q10"type="radio" name="Question3" value="Wrong" > שלום<br>
+        <input id="Q11" type="radio" name="Question3" value="Right"  >שהיא יודעת איפה גברת זרת<br>
+        <input id="Q12"type="radio" name="Question3" value="Wrong"  > להתראות<br>
+        <input id="Q13"type="radio" name="Question3" value="Wrong"  >שהיא לא יודעת איפה גברת זרת<br>
+
+    </div>
+
+    <div style="position: absolute; left:1000px; top:900px;">
+        <p>מי הלכו לטייל יחדיו? </p>
+        <input id= "Q14"type="radio" name="Question4" value="Wrong" > אגודל וגברת זרת<br>
+        <input id="Q15" type="radio" name="Question4" value="Right"  >כולם<br>
+        <input id="Q16"type="radio" name="Question4" value="Wrong"  >גברת קמיצה ואמה<br>
+        <input id="Q17"type="radio" name="Question4" value="Wrong"  >רק מר אגודל<br>
+
+    </div>
+    <div style="position: absolute; left:1000px; top:1100px;">
+        <p>לאן הלכו כולם לטייל? </p>
+        <input id= "Q18"type="radio" name="Question5" value="Right" >בגינה<br>
+        <input id="Q19" type="radio" name="Question5" value="Wrong"  >בחדרו<br>
+        <input id="Q20"type="radio" name="Question5" value="Wrong"  >בלונה פארק<br>
+        <input id="Q21"type="radio" name="Question5" value="Wrong"  >בחוף<br>
+        <p>                       </p>
+        <button id="Q5" onclick="CheckAnswer()">הגש מבחן</button>
+        <p>                       </p>
+        <p id="ShowResult">    </p>
+        <p>                       </p>
+        <p>                       </p>
+
+    </div>
+
+</form>
+
+<script src= "LadyPinkyFunctions.js"></script>
+</body>
+</html>

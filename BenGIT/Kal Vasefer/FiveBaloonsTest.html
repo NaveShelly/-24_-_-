@@ -1,0 +1,87 @@
+!DOCTYPE html>
+<html>
+<head>
+    <div style="position: absolute; left:700px; top:0px;">
+        <h1 style="font-size:25px;text-align:center;color:blue;">Kal Vasefer Example</h1>
+        <title> Kal Vasefer Example </title>
+        <meta charset="UTF-8">
+        <title>Insert title here</title>
+    </div>
+</head>
+<body>
+<div style="position: absolute; left:100px; top:62px;">
+    <button id="button1" onclick="Frontpage()">דף עידכונים</button>
+</div>
+<div style="position: absolute; left:300px; top:62px;">
+    <button id="button2" onclick="Frontpage()">כניסה</button>
+</div>
+<div style="position: absolute; left:450px; top:62px;">
+    <button id="button3" onclick="Frontpage()">מדריך שימוש באתר</button>
+</div>
+<div style="position: absolute; left:700px; top:62px;">
+    <button id="butto4" onclick="regpage()">הרשמה</button>
+</div>
+<div style="position: absolute; left:900px; top:62px;">
+    <button id="button5" onclick="secondpage()">אודות</button>
+</div>
+<div style="position: absolute; left:1100px; top:62px;">
+    <button id="button6" onclick="frontpage()">ראשי</button>
+</div>
+</div>
+
+<div style="position: absolute; left:800px; top:75px;">
+    <h1>בוחן לתלמיד :מעשה בחמישה בלונים</h1>
+</div>
+<form id="Quize" name="Quize">
+    <div style="position: absolute; left:1000px; top:300px;">
+        <p>מי הביא לילדים את הבלונים? </p>
+        <input id= "Q1"type="radio" name="Question1" value="Right" >  אמא של רותי<br>
+        <input id="Q2" type="radio" name="Question1" value="Wrong" > אבא של רותי<br>
+        <input id="Q3"type="radio" name="Question1" value="Wrong" > אח של רותי<br>
+        <input id="Q4"type="radio" name="Question1" value="Wrong" > דודה של רותי<br>
+    </div>
+    <div style="position: absolute; left:1000px; top:500px;">
+        <p>איזה צבע בלון היה לסיגלית?</p>
+        <input id= "Q6"type="radio" name="Question2" value="Wrong" >כחול<br>
+        <input id="Q7" type="radio" name="Question2" value="Wrong"  > אדום<br>
+        <input id="Q8"type="radio" name="Question2" value="Right"  > סגול<br>
+        <input id="Q9"type="radio" name="Question2" value="Wrong"  >לבן<br>
+
+    </div>
+    <div style="position: absolute; left:1000px; top:700px;">
+        <p>איך התפוצץ הבלון של רון? </p>
+        <input id= "Q10"type="radio" name="Question3" value="Wrong" > קוץ<br>
+        <input id="Q11" type="radio" name="Question3" value="Right"  >אבא ניפח אותו יותר מידי<br>
+        <input id="Q12"type="radio" name="Question3" value="Wrong"  > סיכה<br>
+        <input id="Q13"type="radio" name="Question3" value="Wrong"  >נמחץ<br>
+
+    </div>
+
+    <div style="position: absolute; left:1000px; top:900px;">
+        <p>מה מיצי החתולה של סיגלית עשתה? </p>
+        <input id= "Q14"type="radio" name="Question4" value="Wrong" > אכלה<br>
+        <input id="Q15" type="radio" name="Question4" value="Right"  >שיחקה בבלון<br>
+        <input id="Q16"type="radio" name="Question4" value="Wrong"  >טיילה<br>
+        <input id="Q17"type="radio" name="Question4" value="Wrong"  >שתתה<br>
+
+    </div>
+    <div style="position: absolute; left:1000px; top:1100px;">
+        <p>מה רותי עשתה כדי לנסות שהבלון שלה לא התפוצץ? </p>
+        <input id= "Q18"type="radio" name="Question5" value="Right" >חיבקה אותו עד שהתפוצץ<br>
+        <input id="Q19" type="radio" name="Question5" value="Wrong"  >החביאה אותו<br>
+        <input id="Q20"type="radio" name="Question5" value="Wrong"  >קשרה אותו<br>
+        <input id="Q21"type="radio" name="Question5" value="Wrong"  >שמרה אותו בחדר<br>
+        <p>                       </p>
+        <button id="Q5" onclick="CheckAnswer()">הגש מבחן</button>
+        <p>                       </p>
+        <p id="ShowResult">    </p>
+        <p>                       </p>
+        <p>                       </p>
+
+    </div>
+
+</form>
+
+<script src= "BaloonFunctions.js"></script>
+</body>
+</html>

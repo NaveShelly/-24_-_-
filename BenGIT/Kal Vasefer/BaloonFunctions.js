@@ -1,5 +1,4 @@
-
-function LionExam()
+function BaloonExam()
 {
     window.location="FiveBaloonsTest.html"
 }

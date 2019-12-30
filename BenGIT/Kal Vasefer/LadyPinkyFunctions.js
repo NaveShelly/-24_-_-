@@ -1,5 +1,4 @@
-
-function LionExam()
+function LadyPinkExam()
 {
     window.location="LadyPinkyExam.html"
 }

@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-<h1 style="font-size:25px;text-align:center;color:blue;">Kal Vasefer Example</h1>
-<title> Kal Vasefer Example </title>
 <meta charset="UTF-8">
 <title>Insert title here</title>
 </head>
+<h1 style="font-size:25px;text-align:center;color:blue;">Register</h1>
 <body>
 <div style="position: absolute; left:100px; top:62px;">
 <button id="button1" onclick="Frontpage()">דף עידכונים</button>
@@ -27,6 +26,16 @@
 </div>
 <div style="position: absolute; left:900px; top:62px;">
     <button id="button7" onclick="connectionpage()">צור קשר</button>
+</div>
+<div class="form">
+	<form class="register-form">
+	<div style="position:absolute;left:50px;top:200px;">
+	<input id="pw" type="text" placeholder="password"/>
+	</div>
+	<div style="position:absolute;left:300px;top:300px;">
+		<button id="button7" onclick="adminlogin(pw)">login</button>
+	</div>
+	</form>
 </div>
 <script src= "Functions.js"></script>
 </body>

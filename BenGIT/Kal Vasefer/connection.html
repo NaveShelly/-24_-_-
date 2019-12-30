@@ -1,26 +1,53 @@
 <!DOCTYPE html>
 <html>
-    <title>דף התקשרות באתר</title>
-    <style>
-        h1{
-            border-bottom-style: solid;
-            border-bottom-color: coral;
-            font: 30px arial, sans-serif;
-        }
-        div{
-            border-bottom-style: solid;
-            border-bottom-color: coral;
-        }
-        p.a{
-            font: 15px arial, sans-serif;
-        }
-    </style>
-    <head>
-        <meta charset="UTF-8">
-        <h1>דף התקשרות באתר</h1>
-    </head>
-    <body style="text-align: center">
-    <p class="a">יש ללחוץ על הלחצן "שלח מייל" על מנת לשלוח בקשה לסיפור באתר ו/או בקשה לשאלות נוספות לסיפורים הקיימים</p>
-    <a href="mailto:KalVaSefer@gmail.com">שלח מייל</a>
-    </body>
+<title>דף התקשרות באתר</title>
+<style>
+    h1{
+        border-bottom-style: solid;
+        border-bottom-color: coral;
+        font: 30px arial, sans-serif;
+    }
+    div{
+        border-bottom-style: solid;
+        border-bottom-color: coral;
+    }
+    p.a{
+        font: 15px arial, sans-serif;
+    }
+</style>
+<head>
+    <meta charset="UTF-8">
+    <h1>דף התקשרות באתר</h1>
+</head>
+<div style="position: absolute; left:100px; top:62px;">
+<button id="button1" onclick="Frontpage()">דף עידכונים</button>
+</div>
+<div style="position: absolute; left:270px; top:62px;">
+<button id="button2" onclick="adminpage()">כניסת מנהל</button>
+</div>
+<div style="position: absolute; left:400px; top:62px;">
+<button id="button3" onclick="howtouse()">מדריך שימוש באתר</button>
+</div>
+<div style="position: absolute; left:600px; top:62px;">
+<button id="button4" onclick="regpage()">הרשמה</button>
+</div>
+<div style="position: absolute; left:720px; top:62px;">
+<button id="button5" onclick="funcLogin()">כניסת משתמש</button>
+</div>
+<div style="position: absolute; left:1100px; top:62px;">
+<button id="button6" onclick="frontpage()">ראשי</button>
+</div>
+<div style="position: absolute; left:900px; top:62px;">
+    <button id="button7" onclick="connectionpage()">צור קשר</button>
+</div>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<p class="a">יש ללחוץ על הלחצן "שלח מייל" על מנת לשלוח בקשה לסיפור באתר ו/או בקשה לשאלות נוספות לסיפורים הקיימים</p>
+<a href="mailto:KalVaSefer@gmail.com">שלח מייל</a>
+<script src= "Functions.js"></script>
+</body>
 </html>

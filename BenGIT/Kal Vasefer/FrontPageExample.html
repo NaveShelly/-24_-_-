@@ -1,32 +1,125 @@
 <!DOCTYPE html>
 <html>
 <head>
-<h1 style="font-size:25px;text-align:center;color:blue;">Kal Vasefer Example</h1>
-<title> Kal Vasefer Example </title>
-<meta charset="UTF-8">
-<title>Insert title here</title>
-</head>
-<body>
-<div style="position: absolute; left:100px; top:62px;">
-<button id="button1" onclick="Frontpage()">דף עידכונים</button>
-</div>
-<div style="position: absolute; left:270px; top:62px;">
-<button id="button2" onclick="Frontpage()">כניסה</button>
-</div>
-<div style="position: absolute; left:400px; top:62px;">
-<button id="button3" onclick="howtouse()">מדריך שימוש באתר</button>
-</div>
-<div style="position: absolute; left:700px; top:62px;">
-<button id="button4" onclick="regpage()">הרשמה</button>
-</div>
-</div>
-<div style="position: absolute; left:1100px; top:62px;">
-<button id="button6" onclick="frontpage()">ראשי</button>
-</div>
-<div style="position: absolute; left:900px; top:62px;">
-    <button id="button8" onclick="connectionpage()">צור קשר</button>
+<style type = "text/css">
+    div.logo{
+        text-align: center;
+    }
+    .button {
+        background-color: #ffc320;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        opacity: 0.6;
+        transition: 0.3s;
+        font-size: 14px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 8px;
+}
+p.round1 {
+    position: absolute;
+    left:200px;
+    top:280px;
+    padding: 25px 250px;
+    text-align: center;
+    font-family: verdana, Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    border: 2px solid #f0f0f0;
+    background: #f0f0f0;
+    border-radius: 5px;
+}
+p.round2 {
+    position: absolute;
+    left:685px;
+    top:450px;
+    padding: 25px 41px;
+    text-align: center;
+    font-family: verdana, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border: 2px solid #ffd76a;
+    background: #ffd76a;
+    border-radius: 5px;
+}
+
+p.round3 {
+    position: absolute;
+    left:200px;
+    top:450px;
+    padding: 25px 32px;
+    text-align: center;
+    font-family: verdana, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border: 2px solid #ffd76a;
+    background: #ffd76a;
+    border-radius: 5px;
+}
+
+div.img{
+        position: absolute;
+    left:1045px;
+    top: 435px;
+}
+div.img2{
+        position: absolute;
+    left:30px;
+    top: 435px;
+}
+
+.button:hover {opacity: 1}
+</style>
+<div class="logo">
+    <img src="kalvaseferlogo[82].png"width="374" height="195" alt="kalVasefer logo"/>
 </div>
 
+<title> קל וספר-אתר מלווה ספר קריאה </title>
+
+<meta charset="UTF-8">
+</head>
+<body>
+<div style="position: absolute; left:540px; top:210px;">
+<button class="button" onclick="Frontpage()">דף עידכונים</button>
+</div>
+<div style="position: absolute; left:680px; top:210px;">
+<button class="button button4" onclick="loginpages()">התחברות/הרשמה</button>
+</div>
+<div style="position: absolute; left:862px; top:210px;">
+<button class="button button7" onclick="connectionpage()">צור קשר</button>
+</div>
+<div style="position: absolute; left:979px; top:210px;">
+<button class="button button3" onclick="howtouse()">מדריך שימוש באתר</button>
+</div>
+<div style="position: absolute; left:1157px; top:210px;">
+<button class="button button6" onclick="frontpage()">ראשי</button>
+</div>
+
+<p class="round1">ברוכים הבאים לאתר קל וספר
+<br/>אתר מלווה ללימוד ספרי קריאה
+<br/>עבור משתמשים בעלי צרכים מיוחדים</p>
+
+<p class="round2">רמות קושי שונות ✔
+<br/>האתר מחולק לפי רמות קושי
+<br/>ספרי הקריאה באתר קל וספר
+<br/>מותאמים למשתמשים מהרמות הנמוכות
+<br/>ועד למשתמשים מתקדמים יותר</p>
+
+<p class="round3">מעקב אחר התקדמות ✔
+<br/>האתר בודק את הבנת הרצף הסיפורי של המשתמש
+<br/>באמצעות מבדק לאחר כל קריאת סיפור
+<br/>בסיום המבדק ניתן לראות את הציון שהתקבל
+<br/>ובכך ניתן לעקוב אחר התקדמות המשתמש</p
+</div>
+
+<div class="img">
+    <img src="levelsImg.png"width="164" height="221" alt="levels"/>
+</div>
+
+<div class="img2">
+    <img src="gradeimg.png"width="216" height="218" alt="grade"/>
+</div>
 <script src= "Functions.js"></script>
 </body>
 </html>

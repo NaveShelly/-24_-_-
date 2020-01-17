@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type = "text/css">
+    div.logo{
+        text-align: center;
+    }
+    .button {
+        background-color: #ffc320;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        opacity: 0.6;
+        transition: 0.3s;
+        font-size: 14px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 8px;
+}
+p.round1 {
+    position: absolute;
+    left:200px;
+    top:280px;
+    padding: 25px 250px;
+    text-align: center;
+    font-family: verdana, Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    border: 2px solid #f0f0f0;
+    background: #f0f0f0;
+    border-radius: 5px;
+}
+p.round2 {
+    position: absolute;
+    left:685px;
+    top:450px;
+    padding: 25px 41px;
+    text-align: center;
+    font-family: verdana, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border: 2px solid #ffd76a;
+    background: #ffd76a;
+    border-radius: 5px;
+}
+
+p.round3 {
+    position: absolute;
+    left:200px;
+    top:450px;
+    padding: 25px 32px;
+    text-align: center;
+    font-family: verdana, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border: 2px solid #ffd76a;
+    background: #ffd76a;
+    border-radius: 5px;
+}
+
+div.img{
+        position: absolute;
+    left:1045px;
+    top: 435px;
+}
+div.img2{
+        position: absolute;
+    left:30px;
+    top: 435px;
+}
+
+.button:hover {opacity: 1}
+</style>
+<div class="logo">
+    <img src="kalvaseferlogo[82].png"width="374" height="195" alt="kalVasefer logo"/>
+</div>
+
+<title> קל וספר-אתר מלווה ספר קריאה </title>
+
+<meta charset="UTF-8">
+</head>
+<body>
+<div style="position: absolute; left:725px; top:210px;">
+<button class="button" onclick="Frontpage()">דף עידכונים</button>
+</div>
+<div style="position: absolute; left:910px; top:300px;">
+<button class="button button2" onclick="adminlogin()">כניסת מנהל</button>
+</div>
+<div style="position: absolute; left:1100px; top:400px;">
+<button class="button button8" onclick="parent_login()">כניסת הורה</button>
+</div>
+<div style="position: absolute; left:700px; top:400px;">
+<button class="button button9" onclick=" regpageparent()">הרשמה הורה</button>
+</div>
+<div style="position: absolute; left:1100px; top:500px;"">
+<button class="button button5" onclick="funcLogin()">כניסת תלמיד</button>
+</div>
+<div style="position: absolute; left:700px; top:500px";>
+<button class="button button4" onclick="regpage()">הרשמה תלמיד</button>
+</div>
+<div style="position: absolute; left:862px; top:210px;">
+<button class="button button7" onclick="connectionpage()">צור קשר</button>
+</div>
+<div style="position: absolute; left:979px; top:210px;">
+<button class="button button3" onclick="howtouse()">מדריך שימוש באתר</button>
+</div>
+<div style="position: absolute; left:1157px; top:210px;">
+<button class="button button6" onclick="frontpage()">ראשי</button>
+
+
+<div class="img">
+    <img src="levelsImg.png"width="164" height="221" alt="levels"/>
+</div>
+
+<div class="img2">
+    <img src="gradeimg.png"width="216" height="218" alt="grade"/>
+</div>
+<script src= "Functions.js"></script>
+</body>
+</html>

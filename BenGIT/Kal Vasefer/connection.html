@@ -1,26 +1,75 @@
 <!DOCTYPE html>
 <html>
-    <title>דף התקשרות באתר</title>
-    <style>
-        h1{
-            border-bottom-style: solid;
-            border-bottom-color: coral;
-            font: 30px arial, sans-serif;
-        }
-        div{
-            border-bottom-style: solid;
-            border-bottom-color: coral;
-        }
-        p.a{
-            font: 15px arial, sans-serif;
-        }
-    </style>
-    <head>
-        <meta charset="UTF-8">
-        <h1>דף התקשרות באתר</h1>
-    </head>
-    <body style="text-align: center">
-    <p class="a">יש ללחוץ על הלחצן "שלח מייל" על מנת לשלוח בקשה לסיפור באתר ו/או בקשה לשאלות נוספות לסיפורים הקיימים</p>
-    <a href="mailto:KalVaSefer@gmail.com">שלח מייל</a>
-    </body>
+<head>
+<title>דף התקשרות באתר</title>
+            <style type = "text/css">
+    div.logo{
+        text-align: center;
+    }
+    .button {
+       background-color: #ffc320;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        opacity: 0.6;
+        transition: 0.3s;
+        font-size: 14px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 8px;
+}
+p.round1 {
+    position: absolute;
+    left:200px;
+    top:280px;
+    padding: 25px 250px;
+    text-align: center;
+    font-family: verdana, Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    border: 2px solid #f0f0f0;
+    background: #f0f0f0;
+    border-radius: 5px;
+}
+.button:hover {opacity: 1}
+</style>
+<div class="logo">
+<img src="kalvaseferlogo[82].png"width="374" height="195" alt="kalVasefer logo"/>
+</div>
+<meta charset="UTF-8">
+</head>
+<body>
+<div style="position: absolute; left:540px; top:210px;">
+<button class="button" onclick="Frontpage()">דף עידכונים</button>
+</div>
+<div style="position: absolute; left:680px; top:210px;">
+<button class="button button4" onclick="loginpages()">התחברות/הרשמה</button>
+</div>
+<div style="position: absolute; left:862px; top:210px;">
+<button class="button button7" onclick="connectionpage()">צור קשר</button>
+</div>
+<div style="position: absolute; left:979px; top:210px;">
+<button class="button button3" onclick="howtouse()">מדריך שימוש באתר</button>
+</div>
+<div style="position: absolute; left:1157px; top:210px;">
+<button class="button button6" onclick="frontpage()">ראשי</button>
+</div>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<p class="round1">יש ללחוץ על כפתור "שלח מייל" על מנת
+<br/>לשלוח בקשה להעלאת סיפור חדש לאתר
+<br/>להוסיף שאלות למבחנים קיימים
+<br/>או לשנות פרטי משתמש</p>
+</p>
+<div style="position: absolute; left:560px; top:500px; font-size: 26px;font-family: verdana, Arial, Helvetica, sans-serif">
+<a href="mailto:KalVaSefer@gmail.com">שלח מייל</a>
+</div>
+<script src= "Functions.js"></script>
+</body>
 </html>

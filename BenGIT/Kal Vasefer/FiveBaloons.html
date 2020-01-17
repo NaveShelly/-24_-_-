@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type = "text/css">
+    div.logo{
+        text-align: center;
+    }
+    .button {
+        background-color: #ffc320;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        opacity: 0.6;
+        transition: 0.3s;
+        font-size: 14px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 8px;
+}
+div.story{
+    position: absolute;
+    left:702px;
+    top:380px;
+    padding: 0px 25px;
+    text-align: center;
+    font-family: verdana, Arial, Helvetica, sans-serif;
+    font-size: 21px;
+    border: 1px solid #f0f0f0;
+    background: #f0f0f0;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px grey
+}
+h1.head{
+    position: absolute;
+    left:750px;
+    top:300px;
+    text-align: center;
+    font-family: verdana, Arial, Helvetica, sans-serif;
+    font-size: 30px;
+
+}
+div.img{
+  opacity: 0.3;
+  filter: alpha(opacity=50);
+    position: absolute;
+    left:750px;
+    top: 280px;
+}
+.button:hover {opacity: 1}
+</style>
+<div class="logo">
+<img src="kalvaseferlogo[82].png"width="374" height="195" alt="kalVasefer logo"/>
+</div>
+<title> קל וספר-אתר מלווה ספר קריאה </title>
+<meta charset="UTF-8">
+</head>
+<body>
+<div style="position: absolute; left:60px; top:210px;">
+<button class="button button7" onclick="logout()">התנתקות</button>
+</div>
+<div style="position: absolute; left:185px; top:210px;">
+<button class="button button1" onclick="Frontpageusers()">דף עידכונים</button>
+</div>
+<div style="position: absolute; left:322px; top:210px;">
+<button class="button button7" onclick="gradebutton()">משוב ציונים</button>
+</div>
+<div style="position: absolute; left:459px; top:210px;">
+<button class="button button2" onclick="play()">המשך לימוד קריאה</button>
+</div>
+<div style="position: absolute; left:637px; top:210px;">
+<button class="button button3" onclick="connectionpageusers()">צור קשר</button>
+</div>
+<div style="position: absolute; left:755px; top:210px;">
+<button class="button button4" onclick="userguideusers()">מדריך שימוש באתר</button>
+</div>
+<div style="position: absolute; left:935px; top:210px;">
+<button class="button button6" onclick="report1()">דווח לנו על תקלות</button>
+</div>
+<div style="position: absolute; left:1105px; top:210px;">
+<button class="button button5" onclick="userpages()">ראשי</button>
+</div>
+
+<div style="position: absolute; left:250px; top:900px;">
+<button class="button7"style="height:100px;width: 100px" onclick="BaloonExam()">למבחן</button>
+</div>
+
+<div class = "img">
+<img src="baloonsimg.png" alt="baloons" opacity: 0.5/>
+</div>
+<h1 class="head">מעשה בחמישה בלונים/מרים רות</h1>
+
+<div style="position: absolute; left:90px; top:370px;">
+    <video width="500" height="300" controls>
+        <source src="מעשה בחמישה בלונים.mp4" type="video/mp4">
+    </video>
+</div>
+
+<div class="story">
+
+<p>אמא של רותי הביאה מתנה
+</br>
+שמחה וששון לכל ילד בלון
+</br>
+לרותי -בלון כחול
+</br>
+לסיגלית -בלון סגול
+</br>
+לרון -בלון צהוב
+</br>
+לאורי -בלון ירוק
+</br>
+לאלון -בלון אדום
+</br>
+כל הילדים -וכל הבלונים יצאו לטיול.
+</br>
+אורי שמח.
+</br>
+רץ וקפץ -וזרק את הבלון הירק למעלה -למעלה:
+</br>
+זרק ותפס... זרק ותפס...
+</br>
+נפל הבלון הירוק על שיח ורדים -----נדקר
+</br>
+ופתאום...בום! טר-ך!
+</br>
+מה קרה?
+</br>
+הבלון התפוצץ...הבלון נקרע.
+</br>
+אנא -אורי-אל תצטער!
+</br>
+נביא לך בלון אחר.
+</br>
+פגשו הילדים את אבא של רון
+</br>
+שמח רון ואמר: אבא - נפח את הבלון הצהוב!
+</br>
+שיהיה גדול - כמו הראש שלך!
+</br>
+גדול - גדול - כמו...כמו...השמש!!
+</br>
+אבא נפח את הבלון..
+</br>
+נפח...ונפח...
+</br>
+ופתאום...בום! טרך!
+</br>
+מה קרה?
+</br>
+הבלון התפוצץ...הבלון נקרע
+</br>
+אל תצטער רוני - רון!
+</br>
+זה סופו של כל בלון.
+</br>
+פגשו הילדים את מיצי -
+</br>
+חתולתה של סיגלית.
+</br>
+התכופפה סיגלית, רצתה ללטף את מיצי...
+</br>
+חטפה מיצי את הבלון הסגול של סיגלית --
+</br>
+גלגלה ותפסה...גלגלה ותפסה..
+</br>
+שרטה את הבלון בציפורניה
+</br>
+ופתאום.. בום! טרך!
+</br>
+מה קרה?
+</br>
+הבלון התפוצץ... הבלון נקרע
+</br>
+אל תצטערי סיגלית!
+</br>
+כך קרה גם לרון. זה סופו של כל בלון.
+</br>
+הבלון הסגול התפוצץ
+</br>
+הבלון הצהוב התפוצץ
+</br>
+וגם הבלון הירוק
+</br>
+נשארו רק שני בלונים
+</br>
+בלון כחול לרותי
+</br>
+בלום אדום לאלון.
+</br>
+פחדה רותי שגם הבלון שלה יתפוצץ...
+</br>
+חיבקה רותי את הבלון הכחול כמו שמחבקים בובה..
+</br>
+כמו שמחבקים את אמא..
+</br>
+ופתאום.. בום! טרך!
+</br>
+מה קרה?
+</br>
+הבלון התפוצץ...הבלון נקרע.
+</br>
+אל תצטערי רותי!
+</br>
+כך קרה גם לרון - זה סופו של כל בלון.
+</br>
+נשאר רק בלון אחד: בלון אדום - הבלון של אלון.
+</br>
+פתאום.. נשבה רוח חזקה ---חטפה את הבלון האדום,
+</br>
+העיפה אותו למעלה - למעלה - עד העננים.
+</br>
+אלון נפנף בידיו וקרא:
+</br>
+שלום! שלום!
+</br>
+בלון אדום!
+</br>
+עמדו הילדים,
+</br>
+נפנפו בידיים -
+</br>
+וקראו בקול אל השמים:
+</br>
+שלום! שלום!
+</br>
+בלון אדום!
+</br>
+</p>
+</div>
+
+</body>
+<p></p>
+<script src= "Functions.js"></script>
+<script src= "BaloonFunctions.js"></script>
+</body>
+</html>
